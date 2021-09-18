@@ -27,7 +27,7 @@ if [ $DB_IS_RUN -lt 2 ]; then
         -p 3306:3306 -d mysql:5.7 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
         echo "starting mysqldb ..."
         echo "wait 60 second , mysqldb is starting ."
-        sleep 60
+        sleep 3
     else
         echo "mysqldb is running !!!"
     fi
